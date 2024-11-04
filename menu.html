@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Club Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #3b2a2a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        .menu-category {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            flex: 1 1 calc(45% - 20px); /* Responsive layout */
+        }
+        
+        .menu-category h2 {
+            color: #3b2a2a;
+        }
+        
+        .menu-category ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .menu-category li {
+            margin: 10px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #3b2a2a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+    <header>
+        <h1>Coffee Club Menu</h1>
+    </header>
+    
+    <div class="menu-container">
+        <section class="menu-category">
+            <h2>Coffee</h2>
+            <ul>
+                <li>
+                    <strong>Espresso</strong>
+                    <p>A strong and bold shot of coffee.</p>
+                </li>
+                <li>
+                    <strong>Americano</strong>
+                    <p>Espresso diluted with hot water.</p>
+                </li>
+                <li>
+                    <strong>Latte</strong>
+                    <p>Espresso with steamed milk, topped with a light foam.</p>
+                </li>
+                <li>
+                    <strong>Cappuccino</strong>
+                    <p>Equal parts espresso, steamed milk, and frothy milk.</p>
+                </li>
+                <li>
+                    <strong>Mocha</strong>
+                    <p>Espresso mixed with steamed milk and chocolate syrup.</p>
+                </li>
+                <li>
+                    <strong>Cold Brew</strong>
+                    <p>Smooth and refreshing coffee brewed cold for 12 hours.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-category">
+            <h2>Teas</h2>
+            <ul>
+                <li>
+                    <strong>Chai Latte</strong>
+                    <p>Spiced tea blended with steamed milk.</p>
+                </li>
+                <li>
+                    <strong>Herbal Tea</strong>
+                    <p>A selection of caffeine-free herbal blends.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-category">
+            <h2>Pastries</h2>
+            <ul>
+                <li>
+                    <strong>Croissant</strong>
+                    <p>Flaky, buttery pastry.</p>
+                </li>
+                <li>
+                    <strong>Muffin</strong>
+                    <p>Freshly baked, available in various flavors.</p>
+                </li>
+                <li>
+                    <strong>Brownie</strong>
+                    <p>Rich and fudgy chocolate brownie.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-category">
+            <h2>Light Bites</h2>
+            <ul>
+                <li>
+                    <strong>Bagel with Cream Cheese</strong>
+                    <p>Toasted bagel topped with creamy spread.</p>
+                </li>
+                <li>
+                    <strong>Fruit Cup</strong>
+                    <p>Seasonal fresh fruit selection.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Coffee Club</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="c1.css">
+   <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="shortcut icon" href="./images/fevicon.jfif">
+</head>
+<body>
+<header>
+        <h1>Welcome to Our Coffee Shop</h1>
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</header>
+<section class="three-column-layout">
+    <div class="container">
+        <div class="extra-column">
+            <h2>Featured Items</h2>
+            <p>Check out our featured items this week:</p>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Espresso">Espresso</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Cappuccino">Cappuccino</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Latte">Latte</a></li>
+            </ul>
+        </div>
+
+        <main>
+            <h2>Our Story</h2>
+            <p>At coffee club sulur, we are passionate about coffee. <img src="./images/cofee3.jfif" alt="Coffee" class="float-img">Our journey began five years ago, and since then, we've dedicated ourselves to providing the best brews.</p>
+            <h3>Why Choose Us?</h3>
+            <p>We source our beans ethically and focus on quality. We source our beans from local, ethical suppliers, ensuring that every sip you take supports farmers and their communities. Our skilled baristas are trained to perfect classic favorites and innovative seasonal creations, providing an exceptional experience for every customer.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quia nam sapiente dolorem neque tempora distinctio vero magni doloribus rerum adipisci dolores quasi architecto, quam ea, et corporis, assumenda iste! Vel ipsam placeat, omnis rem minima repellendus laborum? Perferendis asperiores sit, nihil dignissimos aspernatur repudiandae officia adipisci, soluta quis iure aliquid enim necessitatibus quam ipsa veritatis dolore sed iste. Accusantium ipsam neque tenetur eum fugiat facilis dignissimos laborum tempora provident! Inventore libero in sit officia pariatur optio enim blanditiis accusantium, sapiente officiis sequi animi reiciendis minus excepturi non veniam ad. Voluptas laboriosam facilis natus reiciendis voluptatibus a accusamus, voluptatem quibusdam!</p>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Quick Links</h2>
+            <button id="pdf"><a href="./images/pdfimage.pdf" target="_blank"><h2>Menu</h2></a></button>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="service.html">Specials</a></li>
+                <li><a href="menu.html">Offers</a></li>
+            </ul>
+            <h2>Music of Coffee</h2>
+            <audio controls>
+                <source src="./images/cafe-noise-32940.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </aside>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Our Coffee Shop</h2>
+    <p>Welcome to coffee club sulur, where passion for coffee and community come together! For over five years, we’ve been dedicated to serving you the finest brews and creating a warm, inviting atmosphere.</p>
+    <h2>Our Coffee Club Video</h2>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cxmpRL8bVU8?si=gXoPFdlx21TWCG0e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section class="contact-info" id="contact">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions or comments, feel free to reach out to us!</p>
+    <p><strong>Email:</strong> info@coffeeclub.com</p>
+    <p><strong>Phone:</strong> +91 8610257232</p>
+    <p><strong>Address:</strong> 123 Coffee club, sulur, coimbatore, 641402</p>
+</section>
+
+
+<section class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<section class="coffee-carousel">
+    <h2>Our Coffee</h2>
+    <div id="coffeeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/cofee3.jfif" class="d-block w-100" alt="Coffee 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/backcoffe.jfif" class="d-block w-100" alt="Coffee 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/coffee1.jfif" class="d-block w-100" alt="Coffee 3">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/coffee4.jpg" class="d-block w-100" alt="Coffee 4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2024 Our Coffee Shop. &copy;</p>
+</footer>
+</body>
+<script src="./bootstrap.bundle.min.js"></script>
+</html>

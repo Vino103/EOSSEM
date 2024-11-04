@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, rgb(82, 54, 54), #3d2020);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+  /* Main layout */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.container {
+    display: flex;
+}
+
+main {
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: #301515;
+    color: #fffbfb;
+}
+.sidebar ul li a{
+    color: #f8f8f8;
+    padding: 20px;
+}
+.float-img {
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+}
+#pdf{
+    background-color: #ddd;
+    padding:0;
+  text-decoration: none;
+}
+#pdf a{
+    color: #240303;
+  text-decoration: none;
+}
+#about{
+    font-weight: bold;
+    background-image: url(./images/coffee4.jpg);
+    background-repeat: no-repeat; 
+    height: 1000px;
+  background-position: center;
+  background-size: cover; 
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.contact-info {
+    margin-bottom: 30px;
+   
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #f8f8f8;
+    
+}
+.contact-form {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    background-color: #4e2a2a;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ddd;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3f1c1c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #3f1b1b;
+}
+
+
+
+footer {
+    background-color: #3f1817;
+    clear: both;
+
+}
+footer p {
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, rgb(82, 54, 54), #3d2020);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.sidebar {
+    padding: 20px;
+    background: #301515;
+    color: #fffbfb;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar h2 {
+    margin-top: 20px;
+}
+
+.float-img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+}
+
+.contact-info,
+.contact-form {
+    padding: 20px;
+}
+
+footer {
+    background-color: #3f1817;
+    clear: both;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+}
+
+
+.coffee-carousel {
+    margin: 40px 0; /* Add margin to the top and bottom */
+    text-align: center; /* Center the heading */
+}
+
+.coffee-carousel h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+.coffee-carousel .carousel-inner {
+    max-height: 300px; /* Adjust this value as needed */
+    overflow: hidden; /* Hide overflow to maintain clean edges */
+}
+
+/* Navbar Customization */
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make brand text bold */
+    font-size: 1.5rem; /* Adjust brand font size */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Change link color */
+    padding: 10px 15px; /* Add padding around links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+.navbar-toggler {
+    border-color: #007bff; /* Toggler border color */
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff; /* Toggler icon color */
+}
+
+/* Media Queries for Custom Breakpoints */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem; /* Reduce brand font size on small screens */
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 8px 12px; /* Reduce padding on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center; /* Center nav links on very small screens */
+    }
+
+    .navbar-nav .nav-link {
+        display: block; /* Stack links vertically */
+        width: 100%; /* Full width for links */
+    }
+}

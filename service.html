@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Column Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap; 
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .article {
+            flex: 1 1 calc(25% - 20px); /* 4 columns */
+            background: #fff;
+            padding: 20px;
+            margin: 10px; 
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .article {
+                flex: 1 1 calc(50% - 20px); /* 2 columns on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .article {
+                flex: 1 1 100%; /* 1 column on very small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="article">
+        <aside class="sidebar">
+            <h2>Featured Drinks</h2>
+            <ul>
+                <li><a href="#"><img src="./images/cofee3.jfif" alt="Espresso" height="80" width="80"> Espresso</a></li>
+                <li><a href="#"><img src="./images/coffee1.jfif" alt="Latte"height="50" width="80"> Latte</a></li>
+                <li><a href="#"><img src="./images/coffee2.jfif" alt="Cappuccino" height="80" width="80"> Cappuccino</a></li>
+            </ul>
+        </aside>    </div>
+    <div class="article">
+        
+        <h2>Our Story</h2>
+        <p> <img src="./images/cofee3.jfif" alt="Coffee" class="float-img">Our journey began five years ago, and since then, we've dedicated ourselves to providing the best brews.</p>
+        <h3>Why Choose Us?</h3>
+        <p>We source our beans ethically and focus on quality.We source our beans from local, ethical suppliers, ensuring that every sip you take supports farmers and their communities. Our skilled baristas are trained to perfect classic favorites and innovative seasonal creations, providing an exceptional experience for every customer.
+
+            Over the years, we've built a welcoming space where friends gather, ideas are born, and conversations flow over rich, aromatic coffee. From cozy corners to community events, we strive to create a hub where everyone feels at home.
+            As we celebrate our fifth anniversary, we want to thank you for being part of our journey. Join us for special events and promotions throughout the month. Here’s to many more years of serving you the best coffee in town!Our journey begins with our commitment to quality. We believe that great coffee starts with the finest ingredients. That’s why we source our beans from sustainable, ethical farms around the world, ensuring that every cup supports farmers and their communities.
+At Coffee club, our menu is designed to cater to every palate. From classic espressos and creamy lattes to innovative seasonal drinks, there’s something for everyone. We take pride in our signature blends, which are meticulously crafted to offer a perfect balance of flavor and aroma. For those seeking a refreshing alternative, our cold brew and iced coffees are perfect for warm days, while our selection of herbal teas and smoothies provides a delicious respite for non-coffee drinkers.
+
+
+</p>
+    
+    </div>
+    <div class="article">
+        <p>Beyond our beverages, we understand that a coffee shop is about creating an inviting atmosphere. Our cozy space is designed with comfort in mind, featuring plush seating, warm lighting, and an array of art from local artists. Whether you’re looking for a quiet corner to read, a vibrant space to meet friends, or a productive area to work, [Coffee Shop Name] has you covered. We also offer free Wi-Fi,
+            making it an ideal spot for students and professionals alike.Beyond our beverages, we understand that a coffee shop is about creating an inviting atmosphere. Our cozy space is designed with comfort in mind, featuring plush seating, warm lighting, and an array of art from local artists. Whether you’re looking for a quiet corner to read, a vibrant space to meet friends, or a productive area to work, [Coffee Shop Name] has you covered. We also offer free Wi-Fi,
+            making it an ideal spot for students and professionals alike. Our roasting process is meticulously crafted to bring out the unique characteristics of each bean, whether it’s a smooth Colombian, a bold Ethiopian, or a rich Sumatra. Each roast is a labor of love, resulting in a flavor profile that delights the senses.</p>
+    </div>
+    <div class="article">
+        <p>Welcome to Coffee Club Sulur
+            Nestled in the heart of Sulur, Coffee Club is more than just a coffee shop; it’s a community hub where flavor, quality, and camaraderie come together. Founded five years ago, our journey began with a simple yet powerful mission: to serve the finest brews while fostering a welcoming atmosphere for all. Over the years, we have cultivated a loyal following, and today, we proudly stand as a beloved destination for coffee aficionados and casual drinkers alike.
+            
+            At Coffee Club, we believe that great coffee starts with great beans. We source our coffee from sustainable, ethical farms around the globe, ensuring that each cup you enjoy contributes to the well-being of farmers and their communities. Our beans are meticulously selected for their unique flavor profiles, allowing us to offer a diverse range of beverages that cater to every palate. From smooth Colombian brews to bold Ethiopian blends, our coffee menu is a celebration of the rich tapestry of global coffee culture.
+            
+            Our skilled baristas are passionate about their craft. Each member of our team undergoes rigorous training to master the art of coffee preparation, ensuring that every drink served meets our high standards of quality. Whether you’re indulging in a classic espresso, a creamy cappuccino, or one of our innovative seasonal specials, you can trust that your drink is made with precision and care. Our baristas love to engage with customers, sharing their knowledge and passion for coffee, and helping you discover your new favorite drink.
+            
+            But we’re not just about coffee. Our menu extends to a delightful array of pastries and light bites that perfectly complement our beverages. Each morning, we bake a selection of fresh pastries, from flaky croissants to decadent muffins, all made with locally sourced ingredients. We also offer a variety of vegan and gluten-free options, ensuring that everyone can find something to enjoy. Our cozy seating area, adorned with local artwork, invites you to sit back, relax, and savor every moment.
+            
+            The ambiance at Coffee Club is designed to foster connection. We’ve created a space where friends can gather, ideas can flourish, and conversations can flow. Whether you’re looking for a quiet spot to read, a lively area to meet friends, or a productive nook to work, our shop has something for everyone. With free Wi-Fi and ample power outlets, we cater to students and remote workers who seek a comfortable and inspiring environment.
+            
+            As we celebrate our fifth anniversary, we are excited to reflect on the memories we’ve created and the relationships we’ve built within the community. Over the years, we’ve hosted numerous events, from open mic nights to art showcases, providing a platform for local talent to shine. Our community initiatives, such as coffee workshops and sustainability talks, further emphasize our commitment to giving back and engaging with the people who support us.
+            
+            We’re also thrilled to announce special events and promotions throughout our anniversary month as a way to thank our customers for their continued support. Join us for tastings, giveaways, and community gatherings that celebrate the joy of coffee and connection.
+            
+            At Coffee Club Sulur, every cup tells a story, and every visit is a chance to create new memories. We invite you to join us in celebrating five wonderful years of great coffee, delicious treats, and cherished friendships. Here’s to many more years of serving you and being a part of your daily routine. Come in, grab a cup, and become a part of our Coffee Club family!</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Coffee Club Sulur</p>
+</footer>
+
+</body>
+</html>
